@@ -1,0 +1,48 @@
+procedure skick();
+
+begin
+
+ClrScr;
+    writeln('================================================');
+    writeln('|      o                             <         |');
+    writeln('|     \|/                           \|/        |');
+    writeln('|      |                             |         |');
+    writeln('|     _/                            / \        |');
+    writeln('================================================');
+    delay(800);
+    ClrScr;
+    writeln('================================================');
+    writeln('|      o                             <         |');
+    writeln('|     \|_                           \|/        |');
+    writeln('|      /                             |         |');
+    writeln('|     _/                            / \        |');
+    writeln('================================================');      
+    sndPlaySound('.\sounds\characterHitLight.wav', snd_Async or snd_NoDefault); 
+    delay(500);
+    sndPlaySound('.\sounds\genericEnemyHurt.wav', snd_Async or snd_NoDefault); 
+    delay(800);
+    ClrScr;
+    writeln('================================================');
+    writeln('|      o                            <          |');
+    writeln('|     \|/                            |_        |');
+    writeln('|      |                              \        |');
+    writeln('|     ====>                         _/ \       |');
+    writeln('================================================');
+    delay(800);
+    ClrScr;
+    writeln('================================================');
+    writeln('|      o                             <         |');
+    writeln('|     \|/                           /|\        |');
+    writeln('|      |                             x         |');
+    writeln('|      ===                          / \        |');
+    writeln('================================================');
+    delay(800);
+    ClrScr;
+    writeln('================================================');
+    writeln('|      o                             <         |');
+    writeln('|     \|/                           /|\        |');
+    writeln('|      |                             |         |');
+    writeln('|    _/ \                           / \        |');
+    writeln('================================================');
+    delay(800);
+end;
